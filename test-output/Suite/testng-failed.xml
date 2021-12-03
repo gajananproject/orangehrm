@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="testpackage.LoginTestclass6">
+        <methods>
+          <include name="aftermethod"/>
+          <include name="beforemethod"/>
+          <include name="beforeclass"/>
+          <include name="test10"/>
+          <include name="test11"/>
+          <include name="profile"/>
+          <include name="test12"/>
+          <include name="aftertest"/>
+          <include name="afterclass"/>
+          <include name="test9"/>
+          <include name="setup"/>
+          <include name="test6"/>
+          <include name="test5"/>
+          <include name="test8"/>
+          <include name="test7"/>
+          <include name="aftersuite"/>
+          <include name="test2"/>
+          <include name="test1"/>
+          <include name="test4"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- testpackage.LoginTestclass6 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
